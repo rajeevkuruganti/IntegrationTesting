@@ -1,0 +1,10 @@
+
+package com.fourcircles.database.repository;
+
+import com.fourcircles.database.entities.Item;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ItemRepository extends JpaRepository<Item, Long> {
+}
